@@ -31,11 +31,10 @@
                 <label for="userImage">Upload de foto</label>
                 <input type="file" accept="image/*" name="userImage">
                 <br>
-            </fieldset>             -->
+            </fieldset>
             
             <fieldset>
-                <legend>Perfil</legend>
-                
+                <legend>Perfil</legend>                
                 <p>Gênero:</p>
                 <input type="radio" name="userGender" value="Feminino">
                 <label for="userGender">Feminino</label>
@@ -58,6 +57,7 @@
                 <br>
 
                 <label for="userState">Estado:</label>
+                
                 <select name="userState" required>
                     <option value="acre">Acre</option>
                     <option value="alagoas">Alagoas</option>
@@ -87,13 +87,27 @@
                     <option value="sergipe">Sergipe</option>
                     <option value="tocantins">Tocantins</option>
                 </select>
-                <br>
                 
                 <label for="userCity">Cidade:</label>
                 <input type="text" id="userCity" name="userCity" autocomplete="address-level2" placeholder="Ex.: Fortaleza" />
+            </fieldset> -->
+
+            <fieldset>
+                <legend>Hábitos</legend>
+                <p>Redes Sociais:</p>
+                <input type="checkbox" name="social" value="instagram">
+                <label for="social">Instagram</label>
+                <br>
+                <input type="checkbox" name="social" value="facebook">
+                <label for="social">Facebook</label>
+                <br>
+                <input type="checkbox" name="social" value="linkedin">
+                <label for="social">Linkedin</label>
+                <br>
+                <input type="checkbox" name="social" value="x">
+                <label for="social">X</label>
+                <br>
             </fieldset>
-
-
 
             <button type="submit">Enviar</button>
 
